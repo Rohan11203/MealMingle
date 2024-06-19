@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import RecipeInfo from "./components/RecipeInfo";
 function App() {
+  console.log("Hello , 19 Jun' 24");
   return (
     <>
       <Router>

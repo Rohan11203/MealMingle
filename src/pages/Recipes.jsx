@@ -20,7 +20,7 @@ export default function Recipes(){
 
 
   const searchRecipe=()=>{
-    setUrl(`https:/www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
+    setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
   }
 
   return (

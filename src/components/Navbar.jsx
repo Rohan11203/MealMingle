@@ -3,9 +3,9 @@ import Recipes from "../pages/Recipes";
 export default function Navbar() {
   return (
     <div className="navbar container">
-      <Link to="">
+      <a href="/">
         M<span>ea</span>l<span>M</span>ingle
-      </Link>
+      </a>
       
       <Link className="logo" to=""></Link>
       <div className="nav-links">
